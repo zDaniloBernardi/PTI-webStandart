@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brechó Oriental</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #d63031; /* Vermelho escuro */
+        }
+
+        .section p {
+            font-size: 16px;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media screen and (min-width: 768px) {
+            .container {
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+            .section {
+                flex: 1;
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brechó Oriental</h1>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>Sobre Nós</h2>
+            <p>Explore nossa coleção única de roupas e acessórios inspirados na cultura oriental.</p>
+        </div>
+        <div class="section">
+            <h2>Nossos Produtos</h2>
+            <p>Descubra peças exclusivas, desde vestimentas tradicionais até itens contemporâneos com um toque oriental.</p>
+        </div>
+        <div class="section">
+            <h2>Vantagens</h2>
+            <p>Compre com consciência e estilo, contribuindo para a sustentabilidade ao adquirir produtos de segunda mão.</p>
+        </div>
+        <div class="section">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações sobre nossos produtos e eventos.</p>
+            <form action="#" method="post">
+                <input type="text" name="nome" placeholder="Seu Nome" required><br>
+                <input type="email" name="email" placeholder="Seu Email" required><br>
+                <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="section">
+            <h2>Localização</h2>
+            <p>Nosso brechó está situado em um ambiente acolhedor e convidativo. Venha nos visitar!</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Brechó Oriental. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
